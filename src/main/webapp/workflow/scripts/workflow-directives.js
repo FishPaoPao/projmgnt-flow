@@ -389,6 +389,10 @@ angular.module('activitiApp')
                     return $scope.controlCallbacks.closeDatePopup(field);
                 };
 
+                $scope.jumpToURL = function (field) {
+                    return $scope.controlCallbacks.jumpToURL(field);
+                }
+
             }
         }
     }]);

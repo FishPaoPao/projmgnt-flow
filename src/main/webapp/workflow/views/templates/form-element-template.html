@@ -120,6 +120,11 @@
         	{{field.value && field.value || ('FORM.MESSAGE.EMPTY' | translate)}}
         </div>
     </div>
+
+    <div ng-switch-when="hyperlink" class="form-group">
+        <label class="control-label form-field-label"></label>
+        <a class="btn btn-icon" ng-click="jumpToURL(field)">{{field.name}}</a>
+    </div>
 </div>
 
 <div ng-if="field != null && field != undefined && field.readOnly" ng-switch="field.type">
@@ -140,6 +145,7 @@
             </li>
         </ul>
     </div>
+
     <div ng-switch-when="functional-group" ng-show="field.isVisible">
         <label class="control-label">{{field.name}}</label>
         <span ng-if="!field.value" translate="FORM.MESSAGE.EMPTY"></span>
@@ -149,6 +155,7 @@
             </li>
         </ul>
     </div>
+
     <div ng-switch-when="upload" ng-show="field.isVisible">
         <label class="control-label">{{field.name}}</label>
         <span ng-if="!field.value || field.value.length == 0" translate="FORM.MESSAGE.EMPTY"></span>
@@ -184,4 +191,5 @@
             {{field.value && field.value || ('FORM.MESSAGE.EMPTY' | translate)}}
         </div>
     </div>
+
 </div>

@@ -1,4 +1,4 @@
-package com.bytd.projmgnt.workflow;
+package com.bytd.projmgnt.workflow.core;
 
 import org.activiti.app.conf.ApplicationConfiguration;
 import org.activiti.app.servlet.ApiDispatcherServletConfiguration;

@@ -682,6 +682,11 @@ angular.module('activitiApp')
                 return postData;
             };
 
+            $scope.jumpToURL = function(field){
+
+                window.open(field.placeholder + '&'+ 'op=write' + '&' + 'ID=' + $rootScope.account.firstName + $rootScope.account.lastName);
+            };
+
             // Place methods that are used by controls into an object which is pushed won the container hierarchy
             // Note that these callbacks must be mapped inside the formElement directive as well (workflow-directives.js)
             $scope.controlCallbacks = {
@@ -699,7 +704,8 @@ angular.module('activitiApp')
                 handleReadonlyClick: $scope.handleReadonlyClick,
                 clearDate: $scope.clearDate,
                 selectToday: $scope.selectToday,
-                closeDatePopup: $scope.closeDatePopup
+                closeDatePopup: $scope.closeDatePopup,
+                jumpToURL: $scope.jumpToURL
             };
             
             if ($scope.taskId) {

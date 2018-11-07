@@ -55,6 +55,11 @@
                         <label translate="FORM-BUILDER.COMPONENT.PLACEHOLDER"></label>
                         <input type="text" class="form-control" ng-model="formElement.placeholder">
                     </div>
+
+                    <div ng-show="formElement.type === 'hyperlink'">
+                        <label translate="FORM-BUILDER.COMPONENT.HYPERLINK"></label>
+                        <input type="text" class="form-control" ng-model="formElement.placeholder">
+                    </div>
                 </div>
 
                 <div ng-if="(activeTab.id == 'options') && (formElement.type === 'radio-buttons' || formElement.type === 'dropdown')">

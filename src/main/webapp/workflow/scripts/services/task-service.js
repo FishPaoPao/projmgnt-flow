@@ -150,7 +150,6 @@ angular.module('activitiApp').service('TaskService', ['$http', '$q', '$rootScope
             $http({
                 method: 'GET',
                 url: ACTIVITI.CONFIG.contextRoot + '/app/rest/tasks/' + taskId + '/content'
-                // url: ACTIVITI.CONFIG.contextRoot + '/app/rest/process-instances/' + processInstanceId + '/content'
             }).
             success(function (response, status, headers, config) {
                 // Add raw URL property to all content

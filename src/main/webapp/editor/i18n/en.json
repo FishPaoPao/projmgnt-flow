@@ -757,7 +757,8 @@
             "UPLOAD": "Upload",
             "EXPRESSION": "Expression",
             "DISPLAY-VALUE": "Display value",
-            "DISPLAY-TEXT": "Display text"
+            "DISPLAY-TEXT": "Display text",
+            "HYPERLINK": "Hyperlink"
         },
         "TABS": {
             "GENERAL": "General",
@@ -833,7 +834,8 @@
             "PROPERTY-UNSELECTED" : "No property selected",
             "DISPLAY-TEXT": "Display text",
             "AMOUNT-CURRENCY-PROPERTY": "Currency",
-            "AMOUNT-ENABLE-FRACTIONS": "Enable fractions"
+            "AMOUNT-ENABLE-FRACTIONS": "Enable fractions",
+            "HYPERLINK" : "Hyperlink for this button"
         },
         "OPTIONS": {
             "MANUAL": "Manual",

@@ -136,7 +136,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.bytd.projmgnt.workflow.WorkflowApplication</mainClass>
+							<mainClass>com.bytd.projmgnt.workflow.core.WorkflowApplication</mainClass>
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 						</manifest>
 					</archive>

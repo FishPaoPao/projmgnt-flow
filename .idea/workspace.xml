@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="projmgnt-workflow:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="44198ca4-8571-4973-884d-6c119ba33c65" name="Default Changelist" comment="" />
+    <list default="true" id="44198ca4-8571-4973-884d-6c119ba33c65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/file.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/WorkflowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/core/WorkflowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editor/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editor/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editor/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editor/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editor/scripts/controllers/form-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editor/scripts/controllers/form-builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editor/views/popover/formfield-edit-popover.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editor/views/popover/formfield-edit-popover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editor/views/templates/form-builder-element-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editor/views/templates/form-builder-element-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/landing-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/landing-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/render-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/render-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/task-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/task-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/workflow-directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workflow/scripts/workflow-directives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-element-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-element-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bytd/projmgnt/workflow/WorkflowApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bytd/projmgnt/workflow/WorkflowApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-10-26" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,128 +90,226 @@
     <session id="-2120669983">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.29" value="4" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="502" />
-          <entry key="js" value="2007" />
-          <entry key="json" value="297" />
+          <entry key="html" value="7341" />
+          <entry key="java" value="503" />
+          <entry key="js" value="3637" />
+          <entry key="json" value="403" />
           <entry key="properties" value="8" />
           <entry key="xml" value="1082" />
-          <entry key="yml" value="813" />
+          <entry key="yml" value="833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="502" />
-          <entry key="JSON" value="297" />
-          <entry key="JavaScript" value="2007" />
+          <entry key="HTML" value="7337" />
+          <entry key="JAVA" value="503" />
+          <entry key="JSON" value="403" />
+          <entry key="JavaScript" value="3641" />
           <entry key="Properties" value="8" />
           <entry key="XML" value="1082" />
-          <entry key="YAML" value="813" />
+          <entry key="YAML" value="833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="49" />
-          <entry key="css" value="5" />
-          <entry key="gif" value="3" />
-          <entry key="html" value="15" />
-          <entry key="ico" value="1" />
-          <entry key="java" value="9" />
-          <entry key="js" value="42" />
-          <entry key="json" value="17" />
+          <entry key="bak" value="3" />
+          <entry key="class" value="51" />
+          <entry key="css" value="11" />
+          <entry key="gif" value="6" />
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="122" />
+          <entry key="ico" value="3" />
+          <entry key="java" value="15" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="158" />
+          <entry key="json" value="28" />
+          <entry key="jsp" value="1" />
           <entry key="log" value="6" />
           <entry key="original" value="1" />
-          <entry key="png" value="10" />
-          <entry key="properties" value="5" />
+          <entry key="png" value="36" />
+          <entry key="properties" value="8" />
           <entry key="svg" value="1" />
-          <entry key="xml" value="30" />
-          <entry key="yml" value="17" />
+          <entry key="ts" value="4" />
+          <entry key="txt" value="2" />
+          <entry key="woff" value="1" />
+          <entry key="xml" value="33" />
+          <entry key="yml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="49" />
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="15" />
-          <entry key="Image" value="14" />
-          <entry key="JAVA" value="9" />
-          <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="42" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="5" />
+          <entry key="CLASS" value="51" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="122" />
+          <entry key="Image" value="46" />
+          <entry key="JAVA" value="15" />
+          <entry key="JSON" value="28" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="158" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Properties" value="8" />
           <entry key="SVG" value="1" />
-          <entry key="XML" value="30" />
-          <entry key="YAML" value="17" />
+          <entry key="TypeScript" value="4" />
+          <entry key="XML" value="33" />
+          <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-element-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="125" column="45" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#option#0;n#select#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/render-form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="13" column="189" selection-start-line="13" selection-start-column="178" selection-end-line="13" selection-end-column="189" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/processes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="113" column="21" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/task-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/task-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app/rest/process-instances/.+/content`</find>
-      <find>loadContent</find>
-      <find>loadRelatedContent</find>
-      <find>getTask</find>
-      <find>relatedcontent</find>
-      <find>rest/tasks/</find>
-      <find>rest/process-instances/.+/co</find>
-      <find>getProcessInstanceComments</find>
-      <find>loadrELATEDcONTENT`</find>
-      <find>processInstanceId</find>
-      <find>processInstance</find>
-      <find>rest/content/raw</find>
-      <find>queueStartProcessContent</find>
-      <find>/rest/content/raw</find>
-      <find>addRelatedContent</find>
-      <find>getRelatedContent</find>
-      <find>Kickstart App</find>
-      <find>en.json</find>
-      <find>Invalid credentials</find>
-      <find>Sign</find>
-      <find>Sign out</find>
-      <find>Identity management</find>
-      <find>活动</find>
-      <find>.json</find>
-      <find>加工</find>
-      <find>stencil-item</find>
-      <find>html2canvas</find>
-      <find>input</find>
-      <find>Multiline text</find>
-      <find>nodeName</find>
+      <find>formElement.placeholder</find>
+      <find>placeholder</find>
+      <find>ng-app=&quot;activitiApp&quot;</find>
+      <find>form-</find>
+      <find>form-element</find>
+      <find>form-element-template.html</find>
+      <find>IdmCreate</find>
+      <find>createNewUser</find>
+      <find>completeForm</find>
+      <find>kickstart</find>
+      <find>click</find>
+      <find>transferTo</find>
+      <find>user</find>
+      <find>account</find>
+      <find>event:auth-authConfirmed</find>
+      <find>app.js</find>
+      <find>auth-services.js</find>
+      <find>auth</find>
+      <find>jumpToURL</find>
+      <find>activiti-admin</find>
+      <find>rest/query/process-instances</find>
+      <find>loadProcessInstances</find>
+      <find>TaskService</find>
+      <find>startProcessInstanceWithoutForm</find>
+      <find>TaskDetailController</find>
+      <find>NO-ASSIGNEE</find>
+      <find>claimTask</find>
+      <find>hyperlink</find>
+      <find>from</find>
+      <find>rest/query/tasks</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
       <dir>D:\ProjectCode\projmgnt-workflow\src\main</dir>
-      <dir>D:\ProjectCode\projmgnt-workflow</dir>
       <dir>D:\ProjectCode\projmgnt-workflow\src\main\resources</dir>
+      <dir>D:\ProjectCode\projmgnt-workflow</dir>
+      <dir>D:\ProjectCode\projmgnt-workflow\src</dir>
+      <dir>D:\ProjectCode\projmgnt-workflow\src\main\webapp\editor\editor-app</dir>
+      <dir>D:\ProjectCode\projmgnt-workflow\src\main\webapp\editor</dir>
+      <dir>D:\ProjectCode\projmgnt-workflow\src\main\webapp\workflow</dir>
       <dir>D:\ProjectCode\projmgnt-workflow\src\main\webapp</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -197,12 +320,45 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/activiti-app/activiti-app.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/common/services/related-content-service.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/i18n/en.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/processes/my-process.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/libs/angular-translate_2.4.2/angular-translate.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/libs/angular-translate_2.4.2/angular-translate.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/idm/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/WorkflowApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/scripts/controllers/form-builder.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/002.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/1.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/2-window.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/3-easyloader.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/2-dialog.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/2-pannel.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test/angularJSTest-1.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/landing-app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/views/popup/form-create.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/views/form-builder.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/i18n/en.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/scripts/editor-directives.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/libs/ui-grid_3.0.0/ui-grid.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/views/popover/formfield-edit-popover.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/idm/scripts/idm-user-mgmt-controller.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/idm/i18n/en.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/landing.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/scripts/workflow-directives.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor/views/templates/form-builder-element-template.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-element-template.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/render-form.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/processes.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/task.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/workflow/views/task-detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/task-service.js" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/i18n/en.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/WorkflowApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/processes/my-process.bpmn20.xml" />
       </list>
     </option>
   </component>
@@ -211,6 +367,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -251,18 +414,19 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,29 +450,7 @@
               <item name="projmgnt-workflow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projmgnt-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmgnt-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="workflow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projmgnt-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmgnt-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projmgnt-workflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmgnt-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,32 +459,34 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="form&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/form-builder.html&#10;ng-bind&#9;null&#9;null&#10;stencilset&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/editor-app/stencilsets&#10;stencil&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/editor-app/stencilsets&#10;en.json&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/i18n/en.json&#10;tasks.js&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/scripts/controllers/tasks.js&#10;PersistentTokenServiceImpl&#9;FILE&#9;jar://D:/software/maven/apache-maven-3.5.4/.m2/repository/org/activiti/activiti-app-logic/6.0.0/activiti-app-logic-6.0.0.jar!/org/activiti/app/service/idm/PersistentTokenServiceImpl.class&#10;PersistentTokenRepository&#9;FILE&#9;jar://D:/software/maven/apache-maven-3.5.4/.m2/repository/org/activiti/activiti-app-logic/6.0.0/activiti-app-logic-6.0.0.jar!/org/activiti/app/repository/idm/PersistentTokenRepository.class" />
+    <property name="SearchEverywhereHistoryKey" value="app.js&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/scripts/app.js&#10;form-element&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/views/templates/form-element-template.html&#10;workflow-direc&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/scripts/workflow-directives.js&#10;form-&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/popover/formfield-edit-popover.html&#10;form-builder-element-template&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/templates/form-builder-element-template.html&#10;form-element-template.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/views/templates/form-element-template.html&#10;landing.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/views/landing.html&#10;editor-directives.js&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/scripts/editor-directives.js&#10;form-element-&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/views/templates/form-element-template.html&#10;landing&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/views/landing.html&#10;f&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/templates/form-builder-element-template.html&#10;form-element-tem&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/views/templates/form-element-template.html&#10;form&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/popover/formfield-edit-popover.html&#10;formfield-edit-popover.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/popover/formfield-edit-popover.html&#10;form-builder-element-template.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/templates/form-builder-element-template.html&#10;form-builder&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/templates/form-builder-element-template.html&#10;form-builder.js&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/scripts/controllers/form-builder.js&#10;form-builder.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/form-builder.html&#10;activitiModeler&#9;null&#9;null&#10;form-template.html&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/views/templates/form-template.html&#10;select-people-popover.ht&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/views/common/popover/select-people-popover.html&#10;select-pe&#9;null&#9;null&#10;formfield-&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/popover/formfield-edit-popover.html&#10;lato-regular-webfont.woff&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/fonts/lato-regular-webfont.woff&#10;form-builder-element-te&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/templates/form-builder-element-template.html&#10;form-create&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/views/popup/form-create.html&#10;ng-bind&#9;null&#9;null&#10;stencilset&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/editor-app/stencilsets&#10;stencil&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/editor-app/stencilsets&#10;en.json&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/editor/i18n/en.json&#10;tasks.js&#9;FILE&#9;file://D:/ProjectCode/projmgnt-workflow/src/main/webapp/workflow/scripts/controllers/tasks.js&#10;PersistentTokenServiceImpl&#9;FILE&#9;jar://D:/software/maven/apache-maven-3.5.4/.m2/repository/org/activiti/activiti-app-logic/6.0.0/activiti-app-logic-6.0.0.jar!/org/activiti/app/service/idm/PersistentTokenServiceImpl.class&#10;PersistentTokenRepository&#9;FILE&#9;jar://D:/software/maven/apache-maven-3.5.4/.m2/repository/org/activiti/activiti-app-logic/6.0.0/activiti-app-logic-6.0.0.jar!/org/activiti/app/repository/idm/PersistentTokenRepository.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540548568653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541578079431" />
     <property name="last_opened_file_path" value="D:/Local Code Repository(Git)/Activiti" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4827586" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DemoCode\projmgnt-workflow\src\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectCode\projmgnt-workflow\src\main\webapp\test" />
+      <recent name="D:\ProjectCode\projmgnt-workflow\src\main\webapp\libs\angular-translate_2.4.2" />
+      <recent name="D:\ProjectCode\projmgnt-workflow\src\main\webapp\editor\i18n" />
       <recent name="D:\software\maven\apache-maven-3.5.4\.m2\repository\org\activiti\activiti-app-logic\6.0.0-boot2\activiti-app-logic-6.0.0-boot2.jar" />
       <recent name="D:\ProjectCode\projmgnt-workflow\src\main\webapp\i18n" />
-      <recent name="D:\ProjectCode\projmgnt-workflow" />
-      <recent name="D:\DemoCode\projmgnt-workflow\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectCode\projmgnt-workflow\src\main\webapp" />
       <recent name="D:\DemoCode\projmgnt-workflow\src\main" />
     </key>
   </component>
@@ -364,7 +508,15 @@
     </option>
     <option name="contentProportion" value="0.15437159" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.27">
+    <configuration name="WorkflowApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="projmgnt-workflow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytd.projmgnt.workflow.core.WorkflowApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="projmgnt-workflow" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytd.projmgnt.workflow.WorkflowApplication" />
@@ -381,6 +533,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.27" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encdoinc=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="projmgnt-workflow:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/wf" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_projmgnt-workflow" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61612" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="projmgnt-workflow:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.WorkflowApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.27" />
+      <item itemvalue="Spring Boot.WorkflowApplication (1)" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -417,12 +653,31 @@
       <workItem from="1540300656357" duration="258000" />
       <workItem from="1540457759189" duration="732000" />
       <workItem from="1540460570058" duration="134000" />
-      <workItem from="1540537566283" duration="6604000" />
+      <workItem from="1540537566283" duration="7231000" />
+      <workItem from="1540558689314" duration="6500000" />
+      <workItem from="1540622987550" duration="1186000" />
+      <workItem from="1540692594057" duration="1814000" />
+      <workItem from="1540774366303" duration="30028000" />
+      <workItem from="1540824859937" duration="10227000" />
+      <workItem from="1540867653014" duration="5773000" />
+      <workItem from="1540902406003" duration="10642000" />
+      <workItem from="1540947188783" duration="13613000" />
+      <workItem from="1540998617239" duration="2729000" />
+      <workItem from="1541033217987" duration="878000" />
+      <workItem from="1541037388872" duration="12755000" />
+      <workItem from="1541080037923" duration="1602000" />
+      <workItem from="1541119311568" duration="24636000" />
+      <workItem from="1541207869074" duration="9625000" />
+      <workItem from="1541234417636" duration="85000" />
+      <workItem from="1541379517514" duration="18806000" />
+      <workItem from="1541406411906" duration="2170000" />
+      <workItem from="1541465330343" duration="27961000" />
+      <workItem from="1541552139868" duration="13347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135620000" />
+    <option name="totallyTimeSpent" value="330624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,9 +690,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.26407507" />
-      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.17828418" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.17828418" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -445,20 +701,21 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7606232" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.75637394" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7971631" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.8865248" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4638298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.80857146" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.898017" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.80851066" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.5702128" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32765958" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.78470254" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.7843972" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,11 +723,11 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.43632707" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,251 +741,363 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/images/bpmn-warning.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/version.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/display/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/i18n/en.json.original" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/i18n/en.json">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/angular-drag-and-drop-lists_1.2.0/angular-drag-and-drop-lists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/editor/i18n/translation_en_us.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/editor/oryx.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/img-kis/grid.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/services/decision-table-service.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2508" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/idm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="496">
+          <caret line="1249" column="12" selection-start-line="1249" selection-start-column="12" selection-end-line="1249" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/services/auth-services.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/modal/delete-content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="54">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/services/form-services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4078" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/tasks.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1692">
-          <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/display/displaymodel.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/configuration/properties.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/configuration/properties/text-popup.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/images/delete.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/images/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencilsets/xforms/icons/new_combo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencilsets/xforms/xforms.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/images/form-builder/readonly-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8232" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/styles/style-editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/activiti-app/activiti-app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state relative-caret-position="226">
+          <caret line="430" column="17" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/display/displaymodel.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/core/WorkflowApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3822">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/lato-regular-webfont.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/json3_3.2.6/lib/json3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3024" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/json3_3.2.6/lib/json3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/sizzle_1.10.16/test/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/my-process.bpmn20.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1458" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-app-rest/6.0.0-boot2/activiti-app-rest-6.0.0-boot2.jar!/org/activiti/app/rest/editor/StencilSetResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/stencil-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/i18n/en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="678" column="40" selection-start-line="678" selection-start-column="40" selection-end-line="678" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-app-logic/6.0.0-boot2/activiti-app-logic-6.0.0-boot2.jar!/stencilset_bpmn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24642">
-          <caret line="1369" column="1" selection-start-line="1369" selection-start-column="1" selection-end-line="1369" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/angular_1.3.13/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="2187" column="12" selection-start-line="2187" selection-start-column="12" selection-end-line="2187" selection-end-column="12" />
+        <state relative-caret-position="1645">
+          <caret line="837" column="53" lean-forward="true" selection-start-line="837" selection-start-column="53" selection-end-line="837" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/form-builder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="547">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/popup/form-create.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/editor-app/configuration/properties-execution-listeners-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="153" column="57" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="7354" column="4" selection-start-line="7354" selection-start-column="4" selection-end-line="7354" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/controllers/form-builder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="127" column="28" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/ui-grid_3.0.0/ui-grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="11248" column="10" selection-start-line="11248" selection-start-column="10" selection-end-line="11248" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/services/recursion-helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/idm/views/popup/idm-user-create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/form-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="81" column="84" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/idm/i18n/en.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/html2canvas_0.4.1/html2canvas.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/idm/scripts/idm-user-mgmt-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="1778" column="88" selection-start-line="1778" selection-start-column="82" selection-end-line="1778" selection-end-column="88" />
+        <state relative-caret-position="288">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app-cfg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/editor-directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="104" column="27" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="124" lean-forward="true" selection-start-line="2" selection-start-column="124" selection-end-line="2" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="42" column="152" selection-start-line="42" selection-start-column="110" selection-end-line="42" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/angular-route_1.3.13/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="709" selection-start-line="709" selection-end-line="709" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/landing-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3708">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/popover/formfield-edit-popover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/workflow-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3330">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/services/auth-services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/workflow-directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="392" column="61" selection-start-line="392" selection-start-column="61" selection-end-line="392" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/templates/form-builder-element-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="450" column="34" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/services/authentication-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="251" column="44" selection-start-line="251" selection-start-column="40" selection-end-line="251" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/libs/angular_1.3.13/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="13554" column="2" selection-start-line="13554" selection-start-column="2" selection-end-line="13554" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/version.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/activiti-app/activiti-app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/services/runtime-app-definition-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="60" column="94" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="94" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bytd/projmgnt/workflow/WorkflowApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0-sources.jar!/org/activiti/rest/service/api/runtime/process/ProcessInstanceResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="522">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-form-engine/6.0.0/activiti-form-engine-6.0.0.jar!/org/activiti/form/engine/impl/persistence/deploy/DeploymentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="82" column="62" lean-forward="true" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-form-engine/6.0.0/activiti-form-engine-6.0.0.jar!/org/activiti/form/engine/impl/persistence/entity/FormEntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/templates/form-element-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="125" column="45" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#option#0;n#select#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/process-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/render-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="189" selection-start-line="13" selection-start-column="178" selection-end-line="13" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/processes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/controllers/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/views/task-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/scripts/services/task-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -33,6 +33,7 @@ activitiApp
 
         var ctx = ACTIVITI.CONFIG.webContextRoot;
     var appResourceRoot = ctx + (ctx && ctx.charAt(ctx.length - 1) !== '/' ? '/' : '');
+    //appResourceRoot='/'
     $provide.value('appResourceRoot', appResourceRoot);
 
         // Override caret for bs-select directive
