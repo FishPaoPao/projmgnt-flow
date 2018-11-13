@@ -153,8 +153,7 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.4.13" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.12" />
-          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
           <element id="library" level="project" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.8" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.8" />
         </element>

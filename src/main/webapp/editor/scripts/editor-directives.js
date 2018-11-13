@@ -104,7 +104,6 @@ angular.module('activitiModeler').directive('formBuilderElement', ['$rootScope',
 
             var templateUrl = 'views/popover/formfield-edit-popover.html';
 
-
             $scope.removeFormElement = function (formElement) {
                 if ($rootScope.formItems.indexOf(formElement) >= 0) {
                     $rootScope.formItems.splice($rootScope.formItems.indexOf(formElement), 1);
@@ -133,6 +132,42 @@ angular.module('activitiModeler').directive('formBuilderElement', ['$rootScope',
                     }
                 }
 
+                $scope.optionTypes = [
+                    {
+                        "id": "可编辑",
+                        "value": "op=write"
+                    },
+                    {
+                        "id": "不可编辑",
+                        "value": "op=view"
+                    }];
+
+                $scope.pageTypes = [
+                    {
+                        "id": "导入数据",
+                        "value": "ImportContract.cpt"
+                    },
+                    {
+                        "id": "查看或修改用户导入的数据",
+                        "value": "ShowOriginal.cpt"
+                    },
+                    {
+                        "id": "按照userID 和批次号查询出合同数据并修改",
+                        "value": "EditContract.cpt"
+                    },
+                    {
+                        "id": "修改后未提交到下一步的展示页面 （修改前后的对比）",
+                        "value": "EditedShowContract.cpt"
+                    },
+                    {
+                        "id": "展示已审核过的数据",
+                        "value": "ShowPublish.cpt"
+                    },
+                    {
+                        "id": "展示未审核和已审核的数据汇总",
+                        "value": "ShowAllPublishAndOld.cpt"
+                    }
+                    ];
                 // Create popover
                 $scope.fieldEditPopup = _internalCreateModal({
                     template: 'views/popover/formfield-edit-popover.html?version=' + Date.now(),

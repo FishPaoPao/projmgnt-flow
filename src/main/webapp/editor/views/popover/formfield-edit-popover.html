@@ -57,8 +57,13 @@
                     </div>
 
                     <div ng-show="formElement.type === 'hyperlink'">
-                        <label translate="FORM-BUILDER.COMPONENT.HYPERLINK"></label>
-                        <input type="text" class="form-control" ng-model="formElement.placeholder">
+                        <label translate="FORM-BUILDER.COMPONENT.HYPERLINK"></label><br><br>
+                        <label translate="FORM-BUILDER.COMPONENT.BASELINK"></label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" ng-model="formElement.placeholder">
+                            <!--<select class="selection" ng-model="formElement.optionType" ng-options="obj.id for obj in optionTypes"></select>-->
+                            <!--<select class="selection" ng-model="formElement.pageType" ng-options="obj.id for obj in pageTypes"></select>-->
+                        </div>
                     </div>
                 </div>
 

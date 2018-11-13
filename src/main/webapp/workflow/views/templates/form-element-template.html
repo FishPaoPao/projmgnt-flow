@@ -123,7 +123,20 @@
 
     <div ng-switch-when="hyperlink" class="form-group">
         <label class="control-label form-field-label"></label>
-        <a class="btn btn-icon" ng-click="jumpToURL(field)">{{field.name}}</a>
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalElement" ng-click="jumpToURL(field)">{{field.name}}</button>
+        <div class="modal fade" id="modalElement" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" style="width: 1000px; height: 600px;">
+                <div class="modal-content" style="width: 1000px; height: 600px;">
+                    <div class="modal-header" style="width: 1000px; height: 60px;">{{field.name}}</div>
+                    <div class="modal-body" style="width: 1000px; height: 450px ">
+                        <iframe ng-if="field.show" ng-src="{{field.url}}" style="width: 960px; height: 430px;"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">{{'GENERAL.ACTION.CLOSE' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -392,7 +392,6 @@ angular.module('activitiApp')
                 $scope.jumpToURL = function (field) {
                     return $scope.controlCallbacks.jumpToURL(field);
                 }
-
             }
         }
     }]);

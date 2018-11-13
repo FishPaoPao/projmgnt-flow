@@ -835,7 +835,8 @@
             "DISPLAY-TEXT": "Display text",
             "AMOUNT-CURRENCY-PROPERTY": "Currency",
             "AMOUNT-ENABLE-FRACTIONS": "Enable fractions",
-            "HYPERLINK" : "Hyperlink for this button"
+            "HYPERLINK" : "Hyperlink for this button",
+            "BASELINK": "Base link"
         },
         "OPTIONS": {
             "MANUAL": "Manual",

@@ -11,8 +11,8 @@
  * limitations under the License.
  */
 angular.module('activitiApp')
-    .controller('RenderFormController', ['$rootScope', '$scope', '$http', '$translate', '$modal', 'appResourceRoot', 'FormService', 'RelatedContentService', '$sce', '$timeout', 'TaskService', 'hotkeys', 'uiGridConstants',
-        function ($rootScope, $scope, $http, $translate, $modal, appResourceRoot, FormService, RelatedContentService, $sce, $timeout, TaskService, hotkeys, uiGridConstants) {
+    .controller('RenderFormController', ['$window','$rootScope', '$scope', '$http', '$translate', '$modal', 'appResourceRoot', 'FormService', 'RelatedContentService', '$sce', '$timeout', 'TaskService', 'hotkeys', 'uiGridConstants',
+        function ($window, $rootScope, $scope, $http, $translate, $modal, appResourceRoot, FormService, RelatedContentService, $sce, $timeout, TaskService, hotkeys, uiGridConstants) {
 
             // when you bind it to the controller's scope, it will automatically unbind
             // the hotkey when the scope is destroyed (due to ng-if or something that changes the DOM)
@@ -72,7 +72,6 @@ angular.module('activitiApp')
             }
 
             initModel();
-
 
             $scope.detectCurrentFormElement = function (currentHtmlElement) {
                 var currentHtmlElementId = currentHtmlElement.id;
@@ -683,11 +682,22 @@ angular.module('activitiApp')
             };
 
             $scope.jumpToURL = function(field){
-
-                window.open(field.placeholder + '&'+ 'op=write' + '&' + 'ID=' + $rootScope.account.firstName + $rootScope.account.lastName);
+                var paramsData = {
+                    taskId : $scope.taskId
+                };
+                $http({
+                    method: 'POST',
+                    url: ACTIVITI.CONFIG.contextRoot + '/app/rest/query/process-instance',
+                    data: paramsData
+                }).success(function (response) {
+                    $scope.processInstanceId = response;
+                    field.url = $sce.trustAsResourceUrl(field.placeholder + '&op=write' +
+                        '&ID='+ $rootScope.account.firstName + $rootScope.account.lastName +
+                        '&BATCHNUMBER=' + $scope.processInstanceId);
+                    field.show=true;
+                });
             };
 
-            // Place methods that are used by controls into an object which is pushed won the container hierarchy
             // Note that these callbacks must be mapped inside the formElement directive as well (workflow-directives.js)
             $scope.controlCallbacks = {
                 onFieldValueChange: $scope.onFieldValueChange,
@@ -705,7 +715,7 @@ angular.module('activitiApp')
                 clearDate: $scope.clearDate,
                 selectToday: $scope.selectToday,
                 closeDatePopup: $scope.closeDatePopup,
-                jumpToURL: $scope.jumpToURL
+                jumpToURL: $scope.jumpToURL,
             };
             
             if ($scope.taskId) {
