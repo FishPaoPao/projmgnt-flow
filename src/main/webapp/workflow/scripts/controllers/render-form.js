@@ -691,10 +691,9 @@ angular.module('activitiApp')
                     data: paramsData
                 }).success(function (response) {
                     $scope.processInstanceId = response;
-                    field.url = $sce.trustAsResourceUrl(field.placeholder + '&op=write' +
+                    field.url = $sce.trustAsResourceUrl(field.placeholder +
                         '&ID='+ $rootScope.account.firstName + $rootScope.account.lastName +
                         '&BATCHNUMBER=' + $scope.processInstanceId);
-                    field.show=true;
                 });
             };
 

@@ -21,7 +21,7 @@
             <FileNamePattern>${log.dir}/file.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>30</MaxHistory>
         </rollingPolicy>
-        <encoder>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>${std}</pattern>
             <charset>${encoding}</charset>
         </encoder>
@@ -30,7 +30,7 @@
         <level value="INFO"/>
     </logger>
     <root>
-        <appender-ref ref="stdout" />
         <appender-ref ref="file" />
+        <appender-ref ref="stdout" />
     </root>
 </configuration>

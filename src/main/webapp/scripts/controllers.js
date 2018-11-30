@@ -35,8 +35,6 @@ activitiApp.controller('LoginController', ['$scope', '$location', 'Authenticatio
                     }
                 });
             });
-
-
         };
     }]
 );

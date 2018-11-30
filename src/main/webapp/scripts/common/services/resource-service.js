@@ -102,6 +102,7 @@ activitiModule.service('ResourceService', ['$http', '$q', 'appResourceRoot',
 
         function loadFromHtml(url, callback, cache)
         {
+            console.info($http.get(url));
             $http.get(url).success(function(responseText)
             {
                 var xmlDoc;

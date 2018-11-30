@@ -13,7 +13,7 @@
             "QUOTA-EXCEEDED-LICENSE-APPS": "The license only permits {{quota}} apps deployed at the same time."
         },
         "ACTION": {
-            "LOGOUT": "Sign out",
+            "LOGOUT": "退出",
             "HELP": "Getting started",
             "EDIT-PROFILE": "Edit profile",
             "SAVE": "Save",
@@ -25,13 +25,13 @@
     },
     "LOGIN": {
         "TITLE": "Sign in",
-        "USERNAME": "Username",
-        "USERNAME-PLACEHOLDER": "Enter your username",
-        "PASSWORD": "Password",
-        "PASSWORD-PLACEHOLDER": "Enter your password",
-        "INVALID-CREDENTIALS": "Invalid credentials",
+        "USERNAME": "用户ID",
+        "USERNAME-PLACEHOLDER": "请输入用户ID",
+        "PASSWORD": "密码",
+        "PASSWORD-PLACEHOLDER": "请输入密码",
+        "INVALID-CREDENTIALS": "用户ID或密码有误，请重新输入",
         "ACTION": {
-            "CONFIRM": "Sign in"
+            "CONFIRM": "登录"
         }
     },
     "ACCOUNT": {
@@ -70,17 +70,17 @@
     },
     "APP": {
         "KICKSTART": {
-            "TITLE": "Kickstart App",
-            "DESCRIPTION": "Create process models, forms and app definitions, then share your models and definitions with other people."
+            "TITLE": "流程及应用定义",
+            "DESCRIPTION": "创建流程模型，表单和应用程序定义。"
         },
         "TASKS": {
-            "TITLE": "Task App",
-            "DESCRIPTION": "Access your full task list and work on any tasks assigned to you from any process app. Also, start new processes and tasks."
+            "TITLE": "任务管理",
+            "DESCRIPTION": "访问完整的任务列表，并处理从任何流程应用程序分配给您的任何任务。"
         },
         "IDENTITY-MANAGEMENT": {
-            "TITLE": "Identity management",
+            "TITLE": "用户管理",
             "TITLE-TENANT-ADMIN": "Identity management",
-            "DESCRIPTION": "Manage your profile: change your picture, name and other settings. As an admin user, manage users and groups.",
+            "DESCRIPTION": "用户信息管理：更改密码，姓名和其他设置。 作为管理员用户，管理用户和组。",
             "DESCRIPTION-TENANT-ADMIN": "Manage the users and groups in your organization."
         },
         "CUSTOM-APP" : {
